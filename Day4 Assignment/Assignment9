@@ -1,0 +1,9 @@
+distance = 450
+mileage = 15
+petrol_price = 110
+
+petrol_used = distance / mileage
+cost = petrol_used * petrol_price
+
+print("Petrol Used =", petrol_used, "litres")
+print("Total Cost =", cost)
