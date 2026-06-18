@@ -1,0 +1,11 @@
+runs = 275
+overs = 48.3
+
+full_overs = int(overs)
+balls = int((overs - full_overs) * 10)
+
+total_balls = full_overs * 6 + balls
+run_rate = runs / (total_balls / 6)
+
+print("Total Balls =", total_balls)
+print("Run Rate =", round(run_rate, 2))
